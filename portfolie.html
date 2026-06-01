@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haritha Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(135deg,#2563eb,#1e3a8a);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+    padding:10px 18px;
+    border:2px solid white;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#1e3a8a;
+}
+
+/* Sections */
+
+section{
+    width:85%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+    border-bottom:3px solid #2563eb;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+p{
+    margin-top:10px;
+    line-height:1.8;
+}
+
+/* Skills */
+
+.skills ul{
+    list-style:none;
+}
+
+.skills li{
+    background:#e8f0ff;
+    margin:10px 0;
+    padding:12px;
+    border-left:5px solid #2563eb;
+    border-radius:8px;
+}
+
+/* Cards */
+
+.card{
+    background:#f8f9ff;
+    padding:15px;
+    margin-top:15px;
+    border-left:5px solid #2563eb;
+    border-radius:10px;
+}
+
+/* Contact Form */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form label{
+    font-weight:bold;
+    margin-top:10px;
+}
+
+input,
+textarea{
+    padding:12px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.gender,
+.interests{
+    margin-top:10px;
+}
+
+button{
+    margin-top:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1e3a8a;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Haritha Portfolio</h1>
+    <p>Welcome To My Personal Portfolio</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#internship">Internship</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <h3>Haritha Chinnapureddy</h3>
+
+    <p>
+        I am a motivated and detail-oriented graduate with a strong interest in
+        Data Analytics, SQL, Python, Power BI, Machine Learning, and Web Technologies.
+    </p>
+
+    <p>
+        I have completed academic projects in Machine Learning and Artificial Intelligence
+        and gained practical experience through a Data Analyst Internship.
+    </p>
+
+    <p>
+        I am passionate about learning new technologies and solving real-world
+        business problems using data-driven approaches.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+
+    <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Excel</li>
+        <li>Power BI</li>
+        <li>NumPy</li>
+        <li>Pandas</li>
+        <li>Matplotlib</li>
+        <li>Machine Learning</li>
+        <li>Data Analysis</li>
+        <li>Data Visualization</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>BVSREC Engineering College</h3>
+        <p>B.Tech - Computer Science Technology (Data Science)</p>
+        <p>2022 - 2026 | CGPA: 8.5</p>
+    </div>
+
+    <div class="card">
+        <h3>Umamaheswara Junior College</h3>
+        <p>Intermediate</p>
+        <p>2020 - 2022 | CGPA: 9.0</p>
+    </div>
+
+    <div class="card">
+        <h3>Z.P.H School</h3>
+        <p>SSC</p>
+        <p>2019 - 2020 | CGPA: 9.0</p>
+    </div>
+</section>
+
+<section id="internship">
+    <h2>Internship</h2>
+
+    <div class="card">
+        <h3>Data Analyst Internship</h3>
+
+        <p>
+            Gained practical experience in data cleaning, data analysis,
+            report preparation, and deriving business insights using
+            Excel, SQL, and Python.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Student Placement Prediction System Using Machine Learning</h3>
+
+        <p>
+            Developed a machine learning system to predict student placement
+            using academic performance, internships, projects, and skills.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>AI-Powered Music System</h3>
+
+        <p>
+            Developed an AI-based music recommendation system using facial
+            emotion detection and Spotify integration.
+        </p>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="card">
+        <p>Machine Learning Internship Certificate – Chaitra Technologies</p>
+        <p>SQL Basic Certificate – HackerRank</p>
+        <p>Certification on Artificial Intelligence – Naresh Technologies</p>
+        <p>Data Science with Artificial Intelligence – Embrizon Technologies</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter Your Name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your Email">
+
+        <div class="gender">
+            <label>Gender</label><br><br>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <div class="interests">
+            <br>
+            <label>Interests</label><br><br>
+
+            <input type="checkbox"> Coding
+            <input type="checkbox"> Reading
+        </div>
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="Write Your Message"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+
+    <p><strong>Email:</strong> harithachinnapureddy123@gmail.com</p>
+    <p><strong>Phone:</strong> +91 7680943543</p>
+    <p><strong>LinkedIn:</strong> linkedin.com/in/chinnapureddy-haritha-02a145279</p>
+
+</section>
+
+<footer>
+    <p>© 2026 Haritha Portfolio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
